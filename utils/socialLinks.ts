@@ -7,17 +7,12 @@ export type SocialLink = {
 export const socialLinks: SocialLink[] = [
   {
     label: 'GitHub',
-    href: 'https://github.com/your-user',
+    href: 'https://github.com/Ibcastelheira',
     icon: 'mdi:github'
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/your-user',
+    href: 'https://www.linkedin.com/in/igorborges-dev/',
     icon: 'mdi:linkedin'
   },
-  {
-    label: 'Twitter',
-    href: 'https://x.com/your-user',
-    icon: 'mdi:twitter'
-  }
 ]
