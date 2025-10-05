@@ -40,31 +40,6 @@ Portfólio construído com Nuxt 3, Tailwind CSS, Apollo Client e consumo de APIs
 npm install
 ```
 
-## 🌐 Configuração do endpoint GraphQL
-
-Crie um arquivo `.env` na raiz (ou utilize suas variáveis de ambiente) e defina a URL do seu endpoint GraphQL:
-
-```bash
-NUXT_PUBLIC_GRAPHQL_ENDPOINT=https://sua-api.com/graphql
-```
-
-Sem essa variável, o projeto usa `https://example.com/graphql` como fallback.
-
-A query de exemplo está em [`graphql/queries/getProjects.gql`](graphql/queries/getProjects.gql) e espera que a API retorne:
-
-```graphql
-{
-  projects {
-    id
-    title
-    description
-    techs
-    repoUrl
-    previewUrl
-  }
-}
-```
-
 ## 🧪 Scripts disponíveis
 
 - `npm run dev` – inicia o servidor de desenvolvimento.
