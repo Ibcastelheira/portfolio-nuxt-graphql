@@ -1,0 +1,10 @@
+query getProjects {
+  projects {
+    id
+    title
+    description
+    techs
+    repoUrl
+    previewUrl
+  }
+}
