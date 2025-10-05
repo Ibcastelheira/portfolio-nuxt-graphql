@@ -20,12 +20,6 @@
       </nav>
       <div class="flex items-center gap-2">
         <ButtonThemeToggle :is-dark="isDark" @toggle="toggleTheme" />
-        <button
-          class="inline-flex items-center justify-center rounded-full border border-neutral-200 px-4 py-2 text-sm font-medium hover:border-primary-500 hover:text-primary-600 dark:border-neutral-700 dark:text-neutral-200"
-          @click="goToProjects"
-        >
-          Ver projetos
-        </button>
       </div>
     </div>
   </header>
@@ -43,7 +37,6 @@ const { isDark, toggleTheme } = useTheme()
 const navigation = computed(() => [
   { to: '/', label: 'Início' },
   { to: '/projects', label: 'Projetos' },
-  { to: '/contact', label: 'Contato' }
 ])
 
 const goToProjects = () => {
