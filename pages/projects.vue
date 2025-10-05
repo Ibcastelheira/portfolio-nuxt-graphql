@@ -2,12 +2,8 @@
   <section class="container-page space-y-10">
     <header class="flex flex-col gap-4 text-center sm:text-left">
       <h1 class="text-3xl font-semibold text-neutral-900 dark:text-white sm:text-4xl">
-        Projetos em destaque
+        Projetos
       </h1>
-      <p class="text-neutral-600 dark:text-neutral-300">
-        Uma seleção de trabalhos recentes que entregam valor através de interfaces intuitivas e
-        tecnologias modernas.
-      </p>
     </header>
 
     <div v-if="loading" class="grid gap-6 sm:grid-cols-2">
