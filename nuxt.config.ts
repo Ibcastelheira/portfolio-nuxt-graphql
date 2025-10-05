@@ -22,7 +22,7 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'Igor Borges | Portfolio' },
         {
           property: 'og:description',
-          content: 'Descubra projetos, experiência e formas de contato de Igor Borges.'
+          content: 'Descubra meus projetos'
         }
       ],
       link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
