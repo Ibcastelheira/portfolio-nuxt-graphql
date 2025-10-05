@@ -1,4 +1,4 @@
-# Portfolio Nuxt GraphQL ## [EM CONSTRUÇÃO]
+# Portfolio Nuxt GraphQL [EM CONSTRUÇÃO]
 
 Portfólio simples construído com Nuxt 3, Tailwind CSS e Apollo Client para demonstrar habilidades de frontend, design de interface e consumo de APIs GraphQL.
 
