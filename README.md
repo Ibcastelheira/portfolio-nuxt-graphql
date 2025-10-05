@@ -57,12 +57,6 @@ A base utiliza ESLint com `plugin:vue/vue3-recommended` e regras do TypeScript p
 
 Execute `npm run lint` e `npm run format` antes de abrir um PR para assegurar consistência.
 
-## ✨ Customização
-
-- Ajuste textos, links e ícones em `utils/socialLinks.ts` e nos componentes.
-- Substitua os dados fictícios em `pages/projects.vue` conforme sua API retornar resultados.
-- Edite o tema e tokens de design em [`tailwind.config.ts`](tailwind.config.ts).
-
 ## 📝 Licença
 
 Projeto open source
