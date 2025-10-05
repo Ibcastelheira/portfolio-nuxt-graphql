@@ -1,4 +1,4 @@
-# Portfolio Nuxt GraphQL
+# Portfolio Nuxt GraphQL ## [EM CONSTRUÇÃO]
 
 Portfólio simples construído com Nuxt 3, Tailwind CSS e Apollo Client para demonstrar habilidades de frontend, design de interface e consumo de APIs GraphQL.
 
@@ -13,18 +13,18 @@ Portfólio simples construído com Nuxt 3, Tailwind CSS e Apollo Client para dem
 ## 📁 Estrutura
 ```text
 .
-├── assets/css/tailwind.css        # Estilos globais do Tailwind
-├── components/                    # Componentes UI reutilizáveis
+├── assets/css/tailwind.css
+├── components/
 │   ├── buttons/ButtonThemeToggle.vue
 │   ├── Footer.vue
 │   └── Header.vue
-├── composables/useTheme.ts        # Persistência e alternância de tema
+├── composables/useTheme.ts
 ├── graphql/queries/getProjects.gql
-├── layouts/default.vue            # Layout principal com Header/Footer
-├── pages/                         # Páginas principais (Home, Projects, Contact)
-├── plugins/apollo.client.ts       # Configuração do Apollo Client
-├── utils/                         # Utilitários para ícones e links sociais
-└── types/project.ts               # Tipagem dos projetos
+├── layouts/default.vue
+├── pages/
+├── plugins/apollo.client.ts
+├── utils/
+└── types/project.ts
 ```
 
 ## 🔧 Pré-requisitos
@@ -78,5 +78,5 @@ Execute `npm run lint` e `npm run format` antes de abrir um PR para assegurar co
 - Edite o tema e tokens de design em [`tailwind.config.ts`](tailwind.config.ts).
 
 ## 📝 Licença
-Projeto open source – adapte livremente para o seu portfólio.
+Projeto open source
 # portfolio-nuxt-graphql
